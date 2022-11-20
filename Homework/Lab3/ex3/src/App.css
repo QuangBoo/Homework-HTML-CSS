@@ -1,0 +1,297 @@
+.hem {
+  margin-top: 60px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 20%;
+}
+
+.h-profile {
+  text-align: center;
+  color: #2d7fcc;
+  font-size: 40px;
+}
+.h-student {
+  text-align: center;
+  font-size: 20px;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+.wrap-information {
+  margin-left: 40px;
+  font-size: 17px;
+  color: black;
+}
+.wrap-input {
+  display: flex;
+  align-items: center;
+}
+.wrap-infor {
+  font-weight: bold;
+}
+.wrap-inputinfor {
+  margin-left: 30px;
+  font-size: 17px;
+  color: black;
+}
+.img {
+  height: 300px;
+} 
+.name {
+  color :black;
+  font-size: 30px;
+}
+.major {
+  color: #3712A1;
+  font-size: 20px;
+}
+.Object {
+  margin-top: 40px;
+}
+.object-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.hr.solid {
+  border-top: 3px solid black;
+}
+.ob-infor {
+  font-size: 17px;
+}
+.education {
+  margin-top: 60px;
+}
+.education-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.hr.solid-2 {
+  border-top: 3px solid black;
+}
+.wrap-edu {
+  display: flex;
+}
+.study-year {
+  font-size: 17px;
+}
+.school-infor {
+  margin-left: 150px;
+  font-size: 17px;
+}
+.school-name {
+  font-weight: bold;
+}
+.project {
+  margin-top: 50px;
+}
+.hr.solid-3 {
+  border-top: 3px solid black;
+}
+.project-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.project-name {
+  font-size: 19px;
+  font-weight: bold;
+}
+.project-year {
+  font-size: 17px;
+}
+.project-table {
+
+  border:1px solid black;
+  border-style: solid;
+}
+.td {
+  border:1px solid black;
+  border-style: solid;  
+  width: 80%;
+}
+.tr {
+  height: 50px;
+}
+.customer {
+  font-size: 17px;
+  font-weight: bold;
+}
+.descrip {
+  font-weight: bold;
+  font-size: 17px;
+}
+.descrip-infor {
+  font-size: 17px;
+}
+.team {
+  font-size: 17px;
+  font-weight: bold;
+}
+.team-num {
+  font-size: 17px;
+}
+.position {
+  font-size: 17px;
+  font-weight: bold;
+}
+.position-infor {
+  font-size: 17px;
+}
+.Tech-use {
+  font-size: 17px;
+  font-weight: bold;
+}
+.tech-infor {
+  font-size: 17px;
+}
+.interest {
+  margin-top: 60px;
+}
+.interest-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+.hr.solid-4 {
+  border-top: 3px solid black;
+}
+.inter-infor {
+  font-size: 17px;
+}
+.skill {
+  margin-top: 60px;
+}
+.skill-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+.hr.solid-5 {
+  border-top: 3px solid black;
+}
+.skill-infor {
+  font-size: 17px;
+}
+
+.grid {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-left: 90px;
+
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.class-wrap {
+  display: flex;
+  padding: 12px 0;
+  width: 50%;
+  align-items: center;
+}
+.header-skill {
+  margin-right: 40px;
+}
+.header-skill-1 {
+  margin-right: 64px;
+}
+.header-skill-2 {
+  margin-right: 64px;
+}
+.header-skill-3 {
+  margin-right: 57px;
+}
+.wrap-border {
+  display: flex;
+  align-items: center;
+  margin-left: 84px;
+}
+.border-box {
+  height: 15px;
+  width: 15px;
+  border: 3px solid grey;
+  margin-right: 8px;
+
+}
+.active {
+  border: 3px solid rgb(30, 168, 203);
+
+}
+.see-profile {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+  font-style: italic;
+}
+.see-github {
+  width: 20%;
+height: 40px;
+margin: 10px auto;
+justify-content: center;
+display: block;
+color: #fff;
+background: rgb(30, 168, 203);
+font-size: 14px;
+font-weight: bold;
+margin-top: 20px;
+outline: none;
+border: none;
+border-radius: 5px;
+transition: .2s ease-in;
+cursor: pointer;
+}
+.see-github:hover {
+  background: rgb(4, 85, 106);
+}
+.language-title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 60px;
+}
+
+
+ * {box-sizing: border-box}
+/* Style the tab */
+.tab {
+  position: fixed;
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #555;
+  width: 10%;
+  height: 60%;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 22px 16px;
+  width: 100%;
+  height: 20%;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: rgba(34,163,160,255);
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: rgba(34,163,160,255);
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: right;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 85%;
+  border-left: none;
+  height: 100%;
+}
